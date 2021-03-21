@@ -1,7 +1,7 @@
 const http = require('http')
 const server = http.createServer((req, res) => {
     console.log('New Connection')
-    res.end('Welcome to Nennebotic')
+    res.end('Welcome to Nennebotic - CI/CD')
 })
 
 const PORT = process.env.PORT ||8080
